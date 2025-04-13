@@ -28,23 +28,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -121,7 +104,7 @@
                &kp B     &kp LC(D)  &kp LC(U)  &kp W      &kp LEFT_BRACE          &trans  &trans  &trans  &trans  &trans
                &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans
 &kp BACKSLASH  &kp HOME  &kp LC(I)  &kp LC(O)  &kp END    &kp LEFT_BRACKET        &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans     &kp DEL    &kp GLOBE               &trans  &trans  &trans
+                                    &trans     &trans     &kp GLOBE               &trans  &trans  &trans
             >;
         };
 
