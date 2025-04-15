@@ -101,8 +101,8 @@
 
         helix_layer {
             bindings = <
-               &kp B     &kp LC(D)  &kp LC(U)  &kp W      &kp LEFT_BRACE          &trans  &trans  &trans  &trans  &trans
-               &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp LEFT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans
+               &kp B     &kp LC(U)  &kp LC(D)  &kp W      &kp LEFT_BRACE          &trans  &trans  &trans  &trans  &trans
+               &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &kp LEFT_PARENTHESIS    &trans  &trans  &trans  &trans  &trans
 &kp BACKSLASH  &kp HOME  &kp LC(I)  &kp LC(O)  &kp END    &kp LEFT_BRACKET        &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans     &trans     &kp GLOBE               &trans  &trans  &trans
             >;
